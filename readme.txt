@@ -1,12 +1,8 @@
 极光推送说明:
 
-安装
-composer install
-
-
 使用前要定义好密钥;
-define('master_secret','');
-define('app_key','');
+define('master_secret','fc75bb6523fcefc7fad3bf62');
+define('app_key','6592fb154c198f0dc60180c5');
 
 
 

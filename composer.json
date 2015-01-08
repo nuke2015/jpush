@@ -1,33 +1,5 @@
 {
-    "name": "nuke2015/jpush",
-    "description": "Jpush client",
-    "homepage": "https://github.com/nuke2015/jpush",
-    "license": "MIT",
-    "keywords": [
-        "Jpush",
-        "Resuful api",
-        "Jpush fengsu",
-        "pusher"
-    ],
-    "version": "1.0",
-    "authors": [
-        {
-            "name": "nuke2015",
-            "email": "nuke.zou@corp.to8to.com",
-            "homepage": "https://github.com/nuke2015/jpush"
-        }
-    ],
-    "require": {
-        "php": ">=5.3",
-        "ext-curl": "*",
+    "require":{
         "jpush/jpush": "v3.2.0"
-    },
-    "autoload": {
-        "psr-0": {
-            "jpush": "src/"
-        }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "*"
     }
 }
