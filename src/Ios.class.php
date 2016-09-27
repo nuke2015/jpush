@@ -1,5 +1,5 @@
 <?php
-namespace Jpush;
+namespace nuke2015\jpush;
 
 /**
  * 极光通知调用客户端
@@ -7,8 +7,6 @@ namespace Jpush;
  * @author nuke.zou <nuke.zou@corp.to8to.com>
  * 2014年12月24日 16:09:43
  */
-
-require_once __DIR__ . '/vendor/autoload.php';
 
 use JPush\Model as M;
 use JPush\JPushClient;
