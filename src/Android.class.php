@@ -1,6 +1,4 @@
 <?php
-namespace nuke2015\jpush;
-
 /**
  * 极光通知调用客户端
  使用前必须定义APP_KEY和MASTER_SECRET
