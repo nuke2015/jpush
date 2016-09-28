@@ -13,7 +13,7 @@ use JPush\Model as M;
 use Monolog\Handler\StreamHandler;
 
 //记录日志;
-JPushLog::setLogHandlers(array(new StreamHandler(MONOLOG_LOGFILE, MONOLOG_LEVEL)));
+// JPushLog::setLogHandlers(array(new StreamHandler(MONOLOG_LOGFILE, MONOLOG_LEVEL)));
 
 /**
  * Android设备通知;
