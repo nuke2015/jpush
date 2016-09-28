@@ -14,8 +14,6 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-4": {
-            "nuke2015\\jpush\\": "src\\nuke2015\\jpush\\"
-        }
+        "classmap": ["src/"]
     }
 }
