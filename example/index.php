@@ -1,5 +1,8 @@
 <?php
+
+date_default_timezone_set('PRC'); //设置为中华人民共和国
 require_once __DIR__ . '/../vendor/autoload.php';
+
 use nuke2015\jpush;
 
 //极光通信指纹;
