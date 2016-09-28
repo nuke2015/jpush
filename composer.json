@@ -1,24 +1,21 @@
 {
     "name": "nuke2015/jpush",
-    "description": "send the jpush easily",
-    "license": "MIT",
-    "keywords": [
-        "jpush easy"
-    ],
-    "version": "1.0.0",
+    "description": "easy to jpush",
+    "type": "mit",
+    "require": {
+        "jpush/jpush": "v3.2.0"
+    },
+    "license": "mit",
     "authors": [
         {
             "name": "fengzi",
             "email": "admin@bestphp.net"
         }
     ],
-    "require": {
-        "php": ">=5.3.0",
-		"jpush/jpush": "v3.2.0"
-    },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "nuke2015\\jpush\\": "src/"
+            "nuke2015\\jpush\\": "src\\nuke2015\\jpush\\"
         }
     }
 }
